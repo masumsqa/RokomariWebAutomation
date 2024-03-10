@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" thread-count="2" parallel="classes">
+    <test verbose="2" preserve-order="true" name="D:/Automation_Testing/Workspaceses/test_Automation_dailyshoppingbd">
+        <classes>
+            <class name="testCases.TestHomeOffers">
+                <methods>
+                    <include name="testOffers"/>
+                </methods>
+            </class>
+            <class name="testCases.TestSignInAndSignOut">
+                <methods>
+                    <include name="testSignInAndSignOut"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
